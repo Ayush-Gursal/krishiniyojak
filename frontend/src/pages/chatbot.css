@@ -1,0 +1,42 @@
+/* ChatBotComponent.css */
+.chatbot-box {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 400px; /* Increased width */
+    height: 400px; /* Increased height */
+    margin: auto;
+    overflow-y: auto; /* Add scroll bar if content exceeds height */
+}
+
+.chatbot-heading {
+    text-align: center;
+    color: white; /* Heading color changed to white */
+}
+
+.input-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.input-field {
+    flex-grow: 1;
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+}
+
+.send-button {
+    padding: 8px 15px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.response-container {
+    margin-top: 10px;
+}

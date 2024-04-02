@@ -1,0 +1,41 @@
+.market-page-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.market-page-container h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+ 
+  text-align: center;
+}
+
+
+.buyer-page-heading {
+  text-align: center; /* Center align the text */
+} 
+
+.links-container {
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+  
+}
+.link-image {
+  width: auto; /* Allow the width to adjust based on the height */
+  height: 200px; /* Set a fixed height for the images */
+  display: block;
+  margin: 0 auto;
+}
+
+.link-footer {
+  text-align: center;
+  font-size: 18px;
+  margin-top: 10px;
+  color: #333;
+}
+
+.links-container a {
+  text-decoration: none;
+}

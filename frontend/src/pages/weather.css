@@ -1,0 +1,74 @@
+.home-page-container {
+    display: flex;
+    justify-content: space-between; /* Adjust as needed, or use other flex properties */
+  }
+
+.Weather,
+.crop-update-box {
+    flex: 1;
+    width: 100%; /* Adjust the width for smaller screens */
+    min-height: 300px; /* Adjust the height for smaller screens */
+    position: relative; /* Change position to relative */
+    top: auto; /* Reset top position */
+    right: auto; /* Reset right position */
+    margin: 20px auto; /* Center the boxes horizontally and provide spacing */
+    max-width: 600px; /* Set maximum width */
+}
+
+.Weather,
+.crop-update-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f8f9fa; /* Light background color */
+    border: 1px solid #dee2e6; /* Border color */
+    border-radius: 10px; /* Rounded corners */
+    padding: 20px; /* Padding inside the box */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Box shadow for depth */
+    transition: box-shadow 0.3s ease-in-out; /* Smooth transition for shadow */
+}
+
+.Weather h2,
+.crop-update-box h2 {
+    font-size: 2.3rem; /* Title font size */
+    color: rgb(17, 144, 0); /* Title color */
+    margin-bottom: 16px; /* Spacing below the title */
+}
+
+.Weather table,
+.crop-update-box table {
+    width: 100%; /* Table width */
+    border-collapse: collapse; /* Collapse borders */
+}
+
+.Weather th,
+.Weather td,
+.crop-update-box th,
+.crop-update-box td {
+    border: 1px solid #dee2e6; /* Border color for table cells */
+    padding: 8px; /* Padding for table cells */
+    text-align: center; /* Center-align text */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

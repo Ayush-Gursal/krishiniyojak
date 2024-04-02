@@ -1,0 +1,170 @@
+/* registerPage.css */
+
+.form-container {
+  background-color: #ffeeba; /* Change to your desired background color */
+  border-color: #ffc107; /* Change to your desired border color */
+  border-radius: 5px;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.form-container:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #fff3cd; /* Change to your desired hover background color */
+}
+
+
+
+
+
+
+
+
+
+/* styless.css */
+
+/* Center the form vertically and horizontally */
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Style the form box */
+.form-box {
+  width: 400px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style form elements */
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  margin-bottom: 5px;
+  font-weight: bold;
+  text-align: left;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.password-toggle {
+  margin-top: 5px;
+  padding: 5px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  text-align: right;
+}
+
+.btn-primary {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+.py-3 {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.py-3 a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.py-3 a:hover {
+  text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.faq-chatbot {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: rgb(0, 0, 0); /* Set background color of the chatbot container to black */
+  color: rgb(56, 30, 30); /* Set text color to white */
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Add shadow effect */
+}
+
+.faq-chatbot h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: white; /* Set FAQ text color to white */
+}
+
+.faq-chatbot form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.faq-chatbot input[type="text"] {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 10px;
+  background-color: #333; /* Set input background color to dark gray */
+  color: white; /* Set input text color to white */
+}
+
+.faq-chatbot button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.faq-chatbot button:hover {
+  background-color: #0056b3;
+}
+
+
+

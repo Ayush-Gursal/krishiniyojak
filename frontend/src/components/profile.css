@@ -1,0 +1,55 @@
+/* profile.css */
+
+.profile-page {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .profile-form {
+    margin-bottom: 20px;
+  }
+  
+  .profile-form h2 {
+    margin-bottom: 10px;
+  }
+  
+  .profile-form div {
+    margin-bottom: 15px;
+  }
+  
+  .profile-form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .profile-form input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  .profile-details {
+    border-top: 1px solid #ccc;
+    padding-top: 20px;
+  }
+  
+  .profile-details h2 {
+    margin-bottom: 10px;
+  }
+  
+  .profile-details div {
+    margin-bottom: 15px;
+  }
+  
+  .profile-details label {
+    font-weight: bold;
+  }
+  
+  .profile-details span {
+    margin-left: 10px;
+  }

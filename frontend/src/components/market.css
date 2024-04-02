@@ -1,0 +1,104 @@
+/* farmer market */
+.farmer-page-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.farmer-page-heading {
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.farmer-market-wrapper {
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.farmer-market-container h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.farmer-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.farmer-form input,
+.farmer-form select {
+  margin-bottom: 10px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.farmer-form button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.farmer-form button:hover {
+  background-color: #0056b3;
+}/* Buyer */
+
+.buyer-market-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center; /* Center content */
+}
+
+.buyer-market-container h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.buyer-market-container .filters {
+  margin-bottom: 20px;
+}
+
+.buyer-market-container .filters select {
+  margin-right: 10px;
+}
+
+.farmer-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.farmer-table th,
+.farmer-table td {
+  padding: 8px;
+  border: 1px solid #ddd;
+}
+
+.farmer-table th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+.buyer-market-container button[type="submit"] {
+  background-color: #4CAF50; /* Green background */
+  color: white; /* White text */
+  padding: 10px 20px; /* Padding */
+  border: none; /* No border */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Cursor style */
+}
+
+.buyer-market-container button[type="submit"]:hover {
+  background-color: #45a049; /* Darker green background on hover */
+}

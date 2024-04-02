@@ -1,0 +1,93 @@
+.prediction-page-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Adjust as needed */
+}
+
+.crop-prediction-box {
+  width: 400px; /* Adjust width as needed */
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f8f9fa;
+}
+
+/* prediction page */
+
+.prediction-page {
+  text-align: center;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+}
+
+.image-wrapper {
+  margin: 0 10px; /* Adjust margin as needed */
+}
+
+.image-wrapper img {
+  width: 200px; /* Adjust width as needed */
+  height: auto; /* Maintain aspect ratio */
+}
+
+
+/* price prediction page */
+
+/* prediction page */
+
+.prediction-page {
+  text-align: center;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+}
+
+.image-wrapper {
+  margin: 0 10px; /* Adjust margin as needed */
+}
+
+.image-wrapper img {
+  width: 200px; /* Adjust width as needed */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.image-footer {
+  text-align: center;
+  margin-top: 5px; /* Adjust spacing as needed */
+}
+
+.link-no-underline {
+  text-decoration: none;
+}
+
+.prediction-page-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0; /* Change as needed */
+}
+
+.crop-prediction-box,
+.fertilizer-prediction-box {
+  max-width: 600px;
+  width: 100%;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.prediction-page-container h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  text-align: center;
+}
+
+/* Add any additional styling specific to each prediction box */
