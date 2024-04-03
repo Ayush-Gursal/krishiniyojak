@@ -26,10 +26,10 @@ environ.Env.read_env(BASE_DIR/'.env')
 # See https://docs.djangoproject.com/en/5.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = env('SECRET_KEY')
+SECRET_KEY = "django-insecure-alf(-q@wcrl*yb3sd9xq8s=97o#ed6qe_tz+5+gm3s#ipbu45+"
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = env('DEBUG')
+DEBUG = True
 
 ALLOWED_HOSTS = []
 
@@ -168,9 +168,9 @@ EMAIL_HOST_USER = 'mihir.waba@gmail.com'
 EMAIL_HOST_PASSWORD ='dxczsbgiwcrynoir'
 PASSWORD_RESET_TIMEOUT = 14400
 
-GOOGLE_CLIENT_ID=env('CLIENT_ID')
-GOOGLE_CLIENT_SECRET=env('CLIENT_SECRET')
-SOCIAL_AUTH_PASSWORD=env('SOCIAL_PASSWORD')
+# GOOGLE_CLIENT_ID=env('CLIENT_ID')
+# GOOGLE_CLIENT_SECRET=env('CLIENT_SECRET')
+# SOCIAL_AUTH_PASSWORD=env('SOCIAL_PASSWORD')
 
 
 
